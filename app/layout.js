@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+          <link rel="icon" href="/logo.png" width={130} height={120} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="author" content="Shivam Singh" />
           <meta
