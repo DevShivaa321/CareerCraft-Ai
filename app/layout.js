@@ -1,25 +1,25 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
-import { Toaster } from "sonner";
-import Header from "@/components/header";
-import { ThemeProvider } from "@/components/theme-switcher";
-import { dark } from "@clerk/themes";
+import { Inter } from 'next/font/google';
+import './globals.css';
+import { ClerkProvider } from '@clerk/nextjs';
+import { Toaster } from 'sonner';
+import Header from '@/components/header';
+import { ThemeProvider } from '@/components/theme-switcher';
+import { dark } from '@clerk/themes';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "CareerCraft AI",
+  title: 'CareerCraft AI',
   description:
-    "CareerCraft AI – Create professional resumes, tailored cover letters, prepare for interviews, and explore the latest job trends using AI.",
-  authors: [{ name: "Shivam Singh", url: "https://github.com/DevShivaa321" }],
+    'CareerCraft AI – Create professional resumes, tailored cover letters, prepare for interviews, and explore the latest job trends using AI.',
+  authors: [{ name: 'Shivam Singh', url: 'https://github.com/DevShivaa321' }],
   keywords: [
-    "AI resume builder",
-    "AI cover letter generator",
-    "Career assistant",
-    "Interview preparation",
-    "Job market trends",
-    "CareerCraft AI",
+    'AI resume builder',
+    'AI cover letter generator',
+    'Career assistant',
+    'Interview preparation',
+    'Job market trends',
+    'CareerCraft AI',
   ],
 };
 
